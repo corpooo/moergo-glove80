@@ -19,12 +19,121 @@
 #define MAGIC 2
 #define FACTORY_TEST 3
 
+// MOD MORPHS
+/ {
+  behaviors {
+    amp_pipe: amp_pipe {
+        compatible = "zmk,behavior-mod-morph";
+        bindings = <&kp AMPS>, <&kp PIPE>;
+
+        #binding-cells = <0>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+
+    lpar_at: lpar_at {
+        compatible = "zmk,behavior-mod-morph";
+        bindings = <&kp LPAR>, <&kp AT>;
+
+        #binding-cells = <0>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+
+    lbrc_under: lbrc_under {
+        compatible = "zmk,behavior-mod-morph";
+        bindings = <&kp LEFT_BRACE>, <&kp UNDER>;
+
+        #binding-cells = <0>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+
+    lbkt_dllr: lbkt_dllr {
+        compatible = "zmk,behavior-mod-morph";
+        bindings = <&kp LBKT>, <&kp DLLR>;
+
+        #binding-cells = <0>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+
+    equal_prcnt: equal_prcnt {
+        compatible = "zmk,behavior-mod-morph";
+        bindings = <&kp EQUAL>, <&kp PRCNT>;
+
+        #binding-cells = <0>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+
+    minus_plus: minus_plus {
+        compatible = "zmk,behavior-mod-morph";
+        bindings = <&kp MINUS>, <&kp PLUS>;
+
+        #binding-cells = <0>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+
+    rbkt_star: rbkt_star {
+        compatible = "zmk,behavior-mod-morph";
+        bindings = <&kp RBKT>, <&kp STAR>;
+
+        #binding-cells = <0>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+
+    rbrc_grave: rbrc_grave {
+        compatible = "zmk,behavior-mod-morph";
+        bindings = <&kp RBRC>, <&kp GRAVE>;
+
+        #binding-cells = <0>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+
+    rpar_caret: rpar_caret {
+        compatible = "zmk,behavior-mod-morph";
+        bindings = <&kp RPAR>, <&kp CARET>;
+
+        #binding-cells = <0>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+
+    slash_bslh: slash_bslh {
+        compatible = "zmk,behavior-mod-morph";
+        bindings = <&kp SLASH>, <&kp BSLH>;
+
+        #binding-cells = <0>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+
+    colon_semi: colon_semi {
+        compatible = "zmk,behavior-mod-morph";
+        bindings = <&kp COLON>, <&kp SEMI>;
+
+        #binding-cells = <0>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+
+    dqt_hash: dqt_hash {
+        compatible = "zmk,behavior-mod-morph";
+        bindings = <&kp DQT>, <&kp HASH>;
+
+        #binding-cells = <0>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+
+    qmark_excl: qmark_excl {
+        compatible = "zmk,behavior-mod-morph";
+        bindings = <&kp QMARK>, <&kp EXCL>;
+
+        #binding-cells = <0>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+  };
+};
+
+
 // HOME ROW MODS
 / {
   behaviors {
     hml: hml {
         compatible = "zmk,behavior-hold-tap";
-        label = "HML";
         bindings = <&kp>, <&kp>;
 
         #binding-cells = <2>;
@@ -38,7 +147,6 @@
 
     hmr: hmr {
         compatible = "zmk,behavior-hold-tap";
-        label = "HMR";
         bindings = <&kp>, <&kp>;
 
         #binding-cells = <2>;
@@ -52,8 +160,7 @@
 
     hmr_colon: hmr_colon {
         compatible = "zmk,behavior-hold-tap";
-        label = "HMR_COLON";
-        bindings = <&kp>, <&kp>;
+        bindings = <&kp>, <&colon_semi>;
 
         #binding-cells = <2>;
         tapping-term-ms = <250>;
