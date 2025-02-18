@@ -23,10 +23,14 @@ jobs:
           skipPush: true
       - name: Build Glove80 combined firmware
         run: nix-build config -o combined
-      - name: Copy result out of nix store
-        run: cp combined/glove80.uf2 glove80.uf2
+      - name: Get commit hash
+        run: echo "COMMIT_HASH=$(git rev-parse --short HEAD)" >> $GITHUB_ENV
+      - name: Rename file with commit hash
+        run: cp combined/glove80.uf2 "glove80-${COMMIT_HASH}.uf2"
       - name: Upload result
         uses: actions/upload-artifact@v4
         with:
-          name: glove80.uf2
-          path: glove80.uf2
+          name: glove80-${{ env.COMMIT_HASH }}.uf2
+          path: glove80-${{ env.COMMIT_HASH }}.uf2
+          if-no-files-found: error
+          compression-level: 0
