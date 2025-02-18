@@ -254,7 +254,7 @@
 &kp TAB     &kp Q         &kp W        &kp E        &kp R         &kp T                                                                                                          &kp Y        &kp U         &kp I        &kp O        &kp P               &kp BSLH
 &kp SQT     &hml LCTRL A  &hml LALT S  &hml LCMD D  &hml LSHFT F  &kp G                                                                                                          &kp H        &hmr RSHFT J  &hmr RCMD K  &hmr RALT L  &hmr_colon LCTRL 0  &kp SQT
 &kp GRAVE   &kp Z         &kp X        &kp C        &kp V         &kp B         &mt LSHFT SPACE  &mt LCTRL TAB  &layer_td      &trans         &mt RCTRL ENTER  &mt RSHFT ESCAPE  &kp N        &kp M         &kp COMMA    &kp DOT      &slash_bslh         &kp PG_UP
-&magic 2 0  &kp HOME      &qmark_excl  &kp LEFT     &kp RIGHT                   &lt 4 DEL        &mt LCMD LBKT  &mt LALT LBRC  &mt RALT RBRC  &mt RCMD RBKT    &kp BSPC                       &kp DOWN      &kp UP       &dqt_hash    &kp END             &magic 2 0
+&magic 2 0  &kp F11       &dqt_hash    &kp LEFT     &kp RIGHT                   &lt 4 DEL        &mt LCMD LBKT  &mt LALT LBRC  &mt RALT RBRC  &mt RCMD RBKT    &kp BSPC                       &kp DOWN      &kp UP       &qmark_excl  &kp F12             &magic 2 0
             >;
         };
 
