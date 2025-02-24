@@ -322,12 +322,12 @@
 
         symbols {
             bindings = <
-&kp  &kp             &kp              &kp             &kp                                                             &kp               &kp             &kp              &kp             &kp
-&kp  &kp             &kp              &kp             &kp               &kp                                      &kp  &kp               &kp             &kp              &kp             &kp
-&kp  &kp HASH        &kp AT           &kp UNDER       &kp DLLR          &kp EXCL                                 &kp  &kp ASTRK         &kp GRAVE       &kp QMARK        &kp CARET       &kp
-&kp  &hml LALT AMPS  &hml LCTRL LPAR  &hml LCMD LBRC  &hml LSHIFT LBKT  &kp PRCNT                                &kp  &hmr RSHIFT RBKT  &hmr RCMD RBRC  &hmr LCTRL RPAR  &hmr RALT PIPE  &kp
-&kp  &kp             &kp LESS_THAN    &kp EQUAL       &kp GT            &kp        &kp  &kp  &kp  &kp  &kp  &kp  &kp  &kp MINUS         &kp PLUS        &kp DQT          &kp BSLH        &kp
-&kp  &kp             &kp              &kp             &kp                          &kp  &kp  &kp  &kp  &kp  &kp       &kp               &kp             &kp              &kp             &kp
+&trans  &trans          &trans           &trans          &trans                                                                               &trans            &trans          &trans           &trans          &trans
+&trans  &trans          &trans           &trans          &trans            &trans                                                     &trans  &trans            &trans          &trans           &trans          &trans
+&trans  &kp HASH        &kp AT           &kp UNDER       &kp DLLR          &kp EXCL                                                   &trans  &kp ASTRK         &kp GRAVE       &kp QMARK        &kp CARET       &trans
+&trans  &hml LALT AMPS  &hml LCTRL LPAR  &hml LCMD LBRC  &hml LSHIFT LBKT  &kp PRCNT                                                  &trans  &hmr RSHIFT RBKT  &hmr RCMD RBRC  &hmr LCTRL RPAR  &hmr RALT PIPE  &trans
+&trans  &trans          &kp LESS_THAN    &kp EQUAL       &kp GT            &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp MINUS         &kp PLUS        &kp DQT          &kp BSLH        &trans
+&trans  &trans          &trans           &trans          &trans                       &trans  &trans  &trans  &trans  &trans  &trans          &trans            &trans          &trans           &trans          &trans
             >;
         };
 
