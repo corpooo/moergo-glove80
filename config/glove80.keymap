@@ -340,12 +340,12 @@
 
         symbols {
             bindings = <
-&trans    &trans          &trans           &trans          &trans                                                                                 &trans            &trans          &trans           &trans           &trans
-&trans    &trans          &trans           &trans          &trans            &trans                                                     &trans    &trans            &trans          &trans           &trans           &trans
-&trans    &kp HASH        &kp AT           &kp UNDER       &kp DLLR          &trans                                                     &trans    &kp ASTRK         &kp GRAVE       &kp QMARK        &kp CARET        &trans
-&kp PIPE  &hml LALT AMPS  &hml LCTRL LPAR  &hml LCMD LBRC  &hml LSHIFT LBKT  &kp PRCNT                                                  &kp SEMI  &hmr RSHIFT RBKT  &hmr RCMD RBRC  &hmr LCTRL RPAR  &hmr RALT COLON  &kp DQT
-&trans    &kp TILDE       &kp LESS_THAN    &kp EQUAL       &kp GT            &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans    &kp MINUS         &kp PLUS        &kp EXCL         &kp BSLH         &trans
-&trans    &trans          &trans           &trans          &trans                       &trans  &trans  &trans  &trans  &trans  &trans            &trans            &trans          &trans           &trans           &trans
+&trans    &trans          &trans           &trans          &trans                                                                                 &trans            &trans          &trans           &trans          &trans
+&trans    &trans          &trans           &trans          &trans            &trans                                                     &trans    &trans            &trans          &trans           &trans          &trans
+&trans    &kp HASH        &kp AT           &kp UNDER       &kp DLLR          &trans                                                     &trans    &kp ASTRK         &kp GRAVE       &kp QMARK        &kp CARET       &trans
+&kp PIPE  &hml LALT AMPS  &hml LCTRL LPAR  &hml LCMD LBRC  &hml LSHIFT LBKT  &kp PRCNT                                                  &kp SEMI  &hmr RSHIFT RBKT  &hmr RCMD RBRC  &hmr LCTRL RPAR  &hmr RALT SEMI  &kp DQT
+&trans    &kp TILDE       &kp LESS_THAN    &kp EQUAL       &kp GT            &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans    &kp MINUS         &kp PLUS        &kp EXCL         &kp BSLH        &trans
+&trans    &trans          &trans           &trans          &trans                       &trans  &trans  &trans  &trans  &trans  &trans            &trans            &trans          &trans           &trans          &trans
             >;
         };
 
