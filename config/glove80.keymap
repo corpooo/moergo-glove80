@@ -289,7 +289,7 @@
 &kp TILDE   &kp N1       &kp N2        &kp N3       &kp N4        &kp N5                                                                                                 &kp N6  &kp N7        &kp N8       &kp N9        &kp N0           &kp MINUS
 &kp TAB     &kp Q        &kp W         &kp E        &kp R         &kp T                                                                                                  &kp Y   &kp U         &kp I        &kp O         &kp P            &kp BSLH
 &kp SQT     &hml LALT A  &hml LCTRL S  &hml LCMD D  &hml LSHFT F  &kp G                                                                                                  &kp H   &hmr RSHFT J  &hmr RCMD K  &hmr LCTRL L  &hmr RALT COLON  &kp SQT
-&kp LBKT    &kp Z        &kp X         &kp C        &kp V         &kp B   &lt 5 SPACE  &mt LCTRL LG(SPACE)  &layer_td      &trans         &mt RCTRL ENTER  &lt 5 ESCAPE  &kp N   &kp M         &kp COMMA    &kp DOT       &kp SLASH        &kp RG(RBKT)
+&kp LBKT    &kp Z        &kp X         &kp C        &kp V         &kp B   &lt 5 SPACE  &mt LCTRL LG(SPACE)  &layer_td      &trans         &mt RCTRL ENTER  &lt 5 ESCAPE  &kp N   &kp M         &kp COMMA    &kp DOT       &kp SLASH        &kp RBKT
 &magic 2 0  &kp F11      &dqt_hash     &kp LEFT     &kp RIGHT             &lt 4 TAB    &mt LCMD LBKT        &mt LALT LBRC  &mt RALT RBRC  &mt RCMD RBKT    &bspc_del             &kp DOWN      &kp UP       &qmark_excl   &kp F12          &magic 2 0
             >;
         };
