@@ -290,7 +290,7 @@
 &kp TAB     &kp Q        &kp W         &kp E        &kp R         &kp T                                                                                                  &kp Y   &kp U         &kp I        &kp O         &kp P            &kp BSLH
 &kp SQT     &hml LALT A  &hml LCTRL S  &hml LCMD D  &hml LSHFT F  &kp G                                                                                                  &kp H   &hmr RSHFT J  &hmr RCMD K  &hmr LCTRL L  &hmr RALT COLON  &kp SQT
 &kp LBKT    &kp Z        &kp X         &kp C        &kp V         &kp B   &lt 5 SPACE  &mt LCTRL LG(SPACE)  &layer_td      &trans         &mt RCTRL ENTER  &lt 5 ESCAPE  &kp N   &kp M         &kp COMMA    &kp DOT       &kp SLASH        &kp RBKT
-&magic 2 0  &kp F11      &dqt_hash     &kp LEFT     &kp RIGHT             &lt 4 TAB    &mt LCMD LBKT        &mt LALT LBRC  &mt RALT RBRC  &mt RCMD RBKT    &bspc_del             &kp DOWN      &kp UP       &qmark_excl   &kp F12          &magic 2 0
+&magic 2 0  &kp F11      &kp F1        &kp LEFT     &kp RIGHT             &lt 4 TAB    &mt LCMD LBKT        &mt LALT LBRC  &mt RALT RBRC  &mt RCMD RBKT    &bspc_del             &kp DOWN      &kp UP       &kp F2        &kp F12          &magic 2 0
             >;
         };
 
@@ -340,12 +340,12 @@
 
         symbols {
             bindings = <
-&trans    &trans          &trans           &trans          &trans                                                                                  &trans            &trans          &trans           &trans          &trans
-&trans    &trans          &trans           &trans          &trans            &trans                                                     &trans     &trans            &trans          &trans           &trans          &trans
-&trans    &kp PIPE        &kp AT           &kp UNDER       &kp DLLR          &kp EQUAL                                                  &kp PLUS   &kp ASTRK         &kp GRAVE       &kp QMARK        &kp CARET       &trans
-&kp HASH  &hml LALT AMPS  &hml LCTRL LPAR  &hml LCMD LBRC  &hml LSHIFT LBKT  &kp PRCNT                                                  &kp MINUS  &hmr RSHIFT RBKT  &hmr RCMD RBRC  &hmr LCTRL RPAR  &hmr RALT SEMI  &kp DQT
-&trans    &kp TILDE       &kp LESS_THAN    &kp EQUAL       &kp GT            &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans     &kp MINUS         &kp PLUS        &kp EXCL         &kp BSLH        &trans
-&trans    &trans          &trans           &trans          &trans                       &trans  &trans  &trans  &trans  &trans  &trans             &trans            &trans          &trans           &trans          &trans
+&trans    &trans          &trans           &trans          &trans                                                                                    &trans            &trans          &trans           &trans          &trans
+&trans    &trans          &trans           &trans          &trans            &trans                                                       &trans     &trans            &trans          &trans           &trans          &trans
+&trans    &kp PIPE        &kp AT           &kp UNDER       &kp DLLR          &kp PERCENT                                                  &kp PLUS   &kp ASTRK         &kp GRAVE       &kp QMARK        &kp CARET       &trans
+&kp HASH  &hml LALT AMPS  &hml LCTRL LPAR  &hml LCMD LBRC  &hml LSHIFT LBKT  &kp EQUAL                                                    &kp MINUS  &hmr RSHIFT RBKT  &hmr RCMD RBRC  &hmr LCTRL RPAR  &hmr RALT SEMI  &kp DQT
+&trans    &kp TILDE       &kp LESS_THAN    &kp EQUAL       &kp GT            &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans     &kp MINUS         &kp PLUS        &kp EXCL         &kp BSLH        &trans
+&trans    &trans          &trans           &trans          &trans                         &trans  &trans  &trans  &trans  &trans  &trans             &trans            &trans          &trans           &trans          &trans
             >;
         };
 
