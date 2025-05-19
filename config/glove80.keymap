@@ -103,6 +103,24 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
+        dot_colon: dot_colon {
+            compatible = "zmk,behavior-mod-morph";
+            label = "DOT_COLON";
+            bindings = <&kp DOT>, <&kp COLON>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        comma_semi: comma_semi {
+            compatible = "zmk,behavior-mod-morph";
+            label = "COMMA_SEMI";
+            bindings = <&kp COMMA>, <&kp SEMI>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
     };
 
     macros {
@@ -178,7 +196,7 @@
 &kp TILDE   &kp N1        &kp N2       &kp N3       &kp N4        &kp N5                                                                    &kp N6  &kp N7        &kp N8       &kp N9       &kp N0             &kp MINUS
 &kp TAB     &kp Q         &kp W        &kp E        &kp R         &kp T                                                                     &kp Y   &kp U         &kp I        &kp O        &kp P              &kp BSLH
 &lt 4 TAB   &hml LCTRL A  &hml LALT S  &hml LCMD D  &hml LSHFT F  &kp G                                                                     &kp H   &hmr RSHFT J  &hmr RCMD K  &hmr RALT L  &hmr_semi LCTRL 0  &kp SQT
-&lt 6 LBKT  &lt 2 Z       &kp X        &kp C        &kp V         &kp B   &lt 5 SPACE  &lt 6 RET  &layer_td  &trans  &lt 6 RET  &lt 5 BSPC  &kp N   &kp M         &kp COMMA    &kp DOT      &lt 2 SLASH        &lt 6 RBKT
+&lt 6 LBKT  &lt 2 Z       &kp X        &kp C        &kp V         &kp B   &lt 5 SPACE  &lt 6 RET  &layer_td  &trans  &lt 6 RET  &lt 5 BSPC  &kp N   &kp M         &comma_semi  &dot_colon   &lt 2 SLASH        &lt 6 RBKT
 &magic 2 0  &kp F11       &kp F1       &kp LEFT     &kp RIGHT             &lt 2 BSPC   &trans     &trans     &trans  &trans     &trans              &kp DOWN      &kp UP       &kp F2       &kp F12            &magic 2 0
             >;
         };
